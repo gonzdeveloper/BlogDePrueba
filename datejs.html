@@ -1,4 +1,9 @@
 <html>
+
+        <script src="http://code.jquery.com/jquery-1.9.1.js"></script>
+        <script src="http://code.jquery.com/ui/1.11.0/jquery-ui.js"></script>
+
+
     <head>
         <title>Pruebas de Fecha!</title>
     </head>
@@ -6,16 +11,15 @@
         <div class="date">
 
             <label for="from"> Desde</label> 
-            <input type="text" id="from" name="from" onchange="mensaje()" /> 
+            <input type="text" id="from" name="from" value="#{resultadoItinerariosBean.fechaComFiltro}" /> 
                 
             <label for="to">Hasta</label> 
-            <input type="text" id="to" name="to"  />
+            <input type="text" id="to" name="to" value="#{resultadoItinerariosBean.fechaFinFiltro}" />
 
 </div>
 
-
+Funcion de javascript para el rango de la fecha:
 <script>
-    //Funcion de javascript para el rango de la fecha:
         $(function() {
             var dates = $( "#from, #to" ).datepicker({
                 changeMonth: true,
@@ -28,38 +32,29 @@
                             instance.settings.dateFormat ||
                             $.datepicker._defaults.dateFormat,
                             selectedDate, instance.settings );
-                    dates.not( this ).datepicker( "option", option, date );from
+                    dates.not( this ).datepicker( "option", option, date );
+
+                    console.log("----------------> "+ date)
                 }
             });
         });
             
 </script>
-<script>
-//en el bean....
 
-//fechaComFiltro
-/*
+en el bean....
+
+fechaComFiltro
+
 public Date getFechaComFiltro() {
 return fechaComFiltro;
 }
-*/
 
 
-//fechaFinFiltro
-/*
+
+fechaFinFiltro
+
 public Date getFechaFinFiltro() {
 return fechaFinFiltro;
 }
-*/
-
-
-//miofrom
-function mensaje() {
-    var valor = document.getElementById("from").value
-    alert("hola " + valor)
-    console.log("---> " + valor)
-}
-
-</script>
     </body>
 </html>
