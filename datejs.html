@@ -1,0 +1,55 @@
+<html>
+    <head>
+        <title>Pruebas de Fecha!</title>
+    </head>
+    <body>
+        <div class="date">
+
+            <label for="from"> Desde</label> 
+            <input type="text" id="from" name="from" value="#{resultadoItinerariosBean.fechaComFiltro}" /> 
+                
+            <label for="to">Hasta</label> 
+            <input type="text" id="to" name="to" value="#{resultadoItinerariosBean.fechaFinFiltro}" />
+
+</div>
+
+
+<script>
+    //Funcion de javascript para el rango de la fecha:
+        $(function() {
+            var dates = $( "#from, #to" ).datepicker({
+                changeMonth: true,
+                language: 'es',                                
+                numberOfMonths: 1,
+                onSelect: function( selectedDate ) {
+                    var option = this.id == "from" ? "minDate" : "maxDate",
+                        instance = $( this ).data( "datepicker" ),
+                        date = $.datepicker.parseDate(
+                            instance.settings.dateFormat ||
+                            $.datepicker._defaults.dateFormat,
+                            selectedDate, instance.settings );
+                    dates.not( this ).datepicker( "option", option, date );
+                }
+            });
+        });
+            
+</script>
+<script>
+//en el bean....
+
+//fechaComFiltro
+
+public Date getFechaComFiltro() {
+return fechaComFiltro;
+}
+
+
+
+fechaFinFiltro
+
+public Date getFechaFinFiltro() {
+return fechaFinFiltro;
+}
+</script>
+    </body>
+</html>
