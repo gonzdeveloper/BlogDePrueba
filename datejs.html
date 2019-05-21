@@ -6,7 +6,7 @@
         <div class="date">
 
             <label for="from"> Desde</label> 
-            <input type="text" id="from" name="from" o="mensaje()" /> 
+            <input type="text" id="from" name="from" onchange="mensaje()" /> 
                 
             <label for="to">Hasta</label> 
             <input type="text" id="to" name="to"  />
@@ -55,7 +55,9 @@ return fechaFinFiltro;
 
 //miofrom
 function mensaje() {
-    alert("hola "+ document.getElementById("from").value)
+    var valor = document.getElementById("from").value
+    alert("hola " + valor)
+    console.log("---> " + valor)
 }
 
 </script>
