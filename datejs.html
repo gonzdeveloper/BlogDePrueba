@@ -6,10 +6,10 @@
         <div class="date">
 
             <label for="from"> Desde</label> 
-            <input type="text" id="from" name="from" value="#{resultadoItinerariosBean.fechaComFiltro}" /> 
+            <input type="text" id="from" name="from" o="mensaje()" /> 
                 
             <label for="to">Hasta</label> 
-            <input type="text" id="to" name="to" value="#{resultadoItinerariosBean.fechaFinFiltro}" />
+            <input type="text" id="to" name="to"  />
 
 </div>
 
@@ -28,7 +28,7 @@
                             instance.settings.dateFormat ||
                             $.datepicker._defaults.dateFormat,
                             selectedDate, instance.settings );
-                    dates.not( this ).datepicker( "option", option, date );
+                    dates.not( this ).datepicker( "option", option, date );from
                 }
             });
         });
@@ -38,18 +38,26 @@
 //en el bean....
 
 //fechaComFiltro
-
+/*
 public Date getFechaComFiltro() {
 return fechaComFiltro;
 }
+*/
 
 
-
-fechaFinFiltro
-
+//fechaFinFiltro
+/*
 public Date getFechaFinFiltro() {
 return fechaFinFiltro;
 }
+*/
+
+
+//miofrom
+function mensaje() {
+    alert("hola "+ document.getElementById("from").value)
+}
+
 </script>
     </body>
 </html>
