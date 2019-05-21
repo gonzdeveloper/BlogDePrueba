@@ -1,0 +1,60 @@
+<html>
+
+        <script src="http://code.jquery.com/jquery-1.9.1.js"></script>
+        <script src="http://code.jquery.com/ui/1.11.0/jquery-ui.js"></script>
+
+
+    <head>
+        <title>Pruebas de Fecha!</title>
+    </head>
+    <body>
+        <div class="date">
+
+            <label for="from"> Desde</label> 
+            <input type="text" id="from" name="from" value="#{resultadoItinerariosBean.fechaComFiltro}" /> 
+                
+            <label for="to">Hasta</label> 
+            <input type="text" id="to" name="to" value="#{resultadoItinerariosBean.fechaFinFiltro}" />
+
+</div>
+
+Funcion de javascript para el rango de la fecha:
+<script>
+        $(function() {
+            var dates = $( "#from, #to" ).datepicker({
+                changeMonth: true,
+                language: 'es',                                
+                numberOfMonths: 1,
+                onSelect: function( selectedDate ) {
+                    var option = this.id == "from" ? "minDate" : "maxDate",
+                        instance = $( this ).data( "datepicker" ),
+                        date = $.datepicker.parseDate(
+                            instance.settings.dateFormat ||
+                            $.datepicker._defaults.dateFormat,
+                            selectedDate, instance.settings );
+                    dates.not( this ).datepicker( "option", option, date );
+
+                    console.log("----------------> "+ date)
+                }
+            });
+        });
+            
+</script>
+
+en el bean....
+
+fechaComFiltro
+
+public Date getFechaComFiltro() {
+return fechaComFiltro;
+}
+
+
+
+fechaFinFiltro
+
+public Date getFechaFinFiltro() {
+return fechaFinFiltro;
+}
+    </body>
+</html>
