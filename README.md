@@ -115,3 +115,4 @@ _A list of commonly used Git and Terminal commands_
 | `gitk` | Open GUI | Abre una interfaz grafica |
 
 
+Credito a Hulk!
