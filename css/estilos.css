@@ -49,16 +49,13 @@ body
 {
     background: white;
     padding: 1em;
-<<<<<<< HEAD
 
 }
 
 #footer
 {
-    background: gray;
+    background: #37488b;
     color: antiquewhite;
     text-align: center;
     padding: 0.5em
-=======
->>>>>>> header
 }
