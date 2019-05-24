@@ -117,3 +117,4 @@ _A list of commonly used Git and Terminal commands_
 
 Creditos a hulk!
 Todo el tiempo el!
+Incluye ejemplos en Linux y Mac.
