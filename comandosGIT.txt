@@ -1,0 +1,597 @@
+ 1030  git diff
+ 1031  git add .
+ 1032  git status 
+ 1034  git add .
+ 1035  git status 
+ 1036  git commit -m "Arranco mi proyecto real con html y css"
+ 1037  git status 
+ 1038  git log
+ 1039  git add .
+ 1040  git commit -m "Cambio de vida"
+ 1041  git add .
+ 1042  git commit -m "Cambio de maestria"
+ 1043  git log
+ 1044  git log --stat 
+ 1045  git checkout 0b1eefaea2d343e00e60133f64bfe34bc8495d11
+ 1046  git checkout 0b1eefaea2d343e00e60133f64bfe34bc8495d11 historia.txt
+ 1047  git status 
+ 1048  git checkout master historia.txt
+ 1049  git checkout 0b1eefaea2d343e00e60133f64bfe34bc8495d11 historia.txt
+ 1050  git add .
+ 1051  git commit -m "Reemplazo de una version por otra de la historia"
+ 1052  git log
+ 1053  git log --stat 
+ 1057  git status 
+ 1058  git log
+ 1059  git status 
+ 1060  git log --stat 
+ 1063  git log
+ 1064  git status 
+ 1066  git status 
+ 1067  git add .
+ 1068  git commit -m "Ejemplo de input fecha" datejs.html 
+ 1069  git status 
+ 1070  git logs
+ 1071  git log
+ 1072  git log --stat 
+ 1073  git log --stat datejs.html
+ 1074  git add .
+ 1075  git status 
+ 1076  git commit -m "Se agrega funcion de de JS" datejs.html 
+ 1077  git status 
+ 1078  git log datejs.html
+ 1079  git status datejs.html 
+ 1080  git log datejs.html
+ 1081  git log --stat datejs.html
+ 1082  git add .
+ 1083  git commit -m "Se modifica el mensaje final" datejs.html 
+ 1084  git log datejs.html
+ 1085  git log --stat datejs.html
+ 1086  git add .
+ 1087  git commit -m "Se agregó librebrias de Jquery" datejs.html 
+ 1089  git status 
+ 1090  git add .
+ 1091  git commit -m "Se agregan mas archvios"
+ 1092  git log
+ 1094  git log
+ 1095  git log --stat 
+ 1096  git commit -am "Se cambiaron los errores de ortografia"
+ 1097  git log
+ 1098  git log --stat 
+ 1099  git status
+ 1100  git show
+ 1101  git branch cabecera
+ 1102  git show
+ 1103  git checkout cabecera 
+ 1104  git show
+ 1105  git status 
+ 1106  git checkout master
+ 1107  git status 
+ 1108  git checkout cabecera 
+ 1109  git checkout master
+ 1110  git checkout cabecera 
+ 1111  git status 
+ 1112  git add blogpost.html 
+ 1113  git commit 
+ 1114  git status 
+ 1115  git show
+ 1116  git log
+ 1117  git checkout master
+ 1118  git show
+ 1119  git checkout master
+ 1120  git checkout cabecera 
+ 1121  git checkout master
+ 1122  git checkout cabecera 
+ 1123  git log
+ 1124  git log --stat 
+ 1125  git status 
+ 1126  git commit -am
+ 1127  git commit -am "Finalizada la cabecera con el diseño azul"
+ 1128  git status 
+ 1129  git checkout master
+ 1130  git commit -am "Agregado el contenido del blog y mejor tipografia"
+ 1131  git status 
+ 1132  git log 
+ 1133  git checkout cabecera 
+ 1134  git checkout master
+ 1136  git branch 
+ 1137  git merge cabecera 
+ 1138  git commit -am "fusionadas versiones"
+ 1139  git merge cabecera 
+ 1140  git log
+ 1141  git branches
+ 1142  git branch
+ 1143  git checkout cabecera 
+ 1144  git checkout master
+ 1145  git branch 
+ 1146  git commit -an "Agregue mas contenido"
+ 1147  git commit -am "Agregue mas contenido"
+ 1148  git checkout master
+ 1149  git merge cabecera 
+ 1150  git log
+ 1151  git branch 
+ 1152  git commit -am "Cambie a una fuente horrible"
+ 1153  git log
+ 1170  git remote add origin https://github.com/gonzdeveloper/BlogDePrueba.git
+ 1171  git remote
+ 1172  git remote -v
+ 1174  git push origin master
+ 1175  git pull origin  master
+ 1177  git pull origin master --allow-unrelated-histories
+ 1179  git status
+ 1180  git pull origin master 
+ 1181  git pull origin master --allow-unrelated-histories
+ 1182  git checkout master 
+ 1183  git pull origin master 
+ 1184  git pull origin master --all 
+ 1189  git remote
+ 1190  git remote -v
+ 1191  git push origin master 
+ 1192  git config 
+ 1193  git config -l
+ 1195  git pull origin master 
+ 1196  git checkout 
+ 1197  git checkout master 
+ 1199  git pull origin master 
+ 1200  git log 
+ 1202  git config -l
+ 1205  git config -l
+ 1217  git remote -v
+ 1218  git remote set-url origin git@github.com:gonzdeveloper/BlogDePrueba.git
+ 1219  git remote -v
+ 1220  git pull 
+ 1221  git pull
+ 1222  git branch 
+ 1223  git checkout master 
+ 1224  git status 
+ 1225  git pull
+ 1251  git pull
+ 1252  sudo git pull
+ 1253  sudo git pull origin 
+ 1254  git pull origin 
+ 1255  git fetch origin master
+ 1256  git reset 
+ 1257  git reset --hard FETCH_HEAD 
+ 1258  git pull
+ 1259  git status 
+ 1261  git add .
+ 1263  git status 
+ 1264  git pull
+ 1265  git commit -am "Cambio de titulo 2.0"
+ 1266  git pull
+ 1267  git pull origin 
+ 1268  git pull origin master 
+ 1269  git diff
+ 1270  git pull origin master 
+ 1271  git push origin master 
+ 1272  git remote set-url origin git@github.com:gonzdeveloper/BlogDePrueba.git
+ 1273  git pull origin master 
+ 1275  git config -l
+ 1276  git remote set-url origin git@github.com:gonzdeveloper/BlogDePrueba.git
+ 1277  git pull
+ 1278  git remote set-url origin git@github.com:gonzdeveloper/BlogDePrueba.gitssh-keygen -t rsa -b 4096 -C "gonzadeveloper@gmail.com"
+ 1284  git remote -v
+ 1287  git remote -v
+ 1288  git remote set-url origin git@github.com:gonzdeveloper/BlogDePrueba.git
+ 1289  git remote set-url 
+ 1290  git pull
+ 1291  git config -l
+ 1292  git pull origin master 
+ 1293  git remote set-url origin https://github.com/gonzdeveloper/BlogDePrueba.git
+ 1294  git remote -v
+ 1295  git pull origin master 
+ 1296  git push origin master 
+ 1297  git log
+ 1298  git log -all
+ 1299  git log -a
+ 1300  git log --all
+ 1301  git log --graph 
+ 1302  git log --all --graph  --decorate --oneline 
+ 1303  alias arbolito "git log --all --graph  --decorate --oneline"
+ 1305  alias arbolito="git log --all --graph  --decorate --oneline"
+ 1307  git log --all --graph  --decorate --oneline 
+ 1309  git tag -a v0.1 -m "Resultado de las primeras clases del curso" d73bff0
+ 1310  git tag 
+ 1311  git show-ref --tags
+ 1312  git status 
+ 1313  git pull 
+ 1314  git pull origin master 
+ 1315  git push origin --tags 
+ 1316  git tag -a v0.2 -m "Agrego los otros archivos" d66ae81
+ 1317  git pull origin master 
+ 1318  git push origin --tags 
+ 1319  git tag  -d v0.1 
+ 1320  git push origin --tags 
+ 1321  git push origin :refs/tags/v0.1
+ 1322  git branch 
+ 1323  git checkout cabecera 
+ 1324  git checkout master 
+ 1326  git show-branch 
+ 1327  git show-branch --all
+ 1328  gitk
+ 1329  sudo apt-get install gitk
+ 1330  gitk
+ 1331  git config -l
+ 1332  gitk
+ 1333  git config user.name "gonzdeveloper"
+ 1343  git remote set-url origin git@github.com:gonzdeveloper/BlogDePrueba.git
+ 1344  git remote -v
+ 1345  git pull origin master 
+ 1346  git remote set-url https://github.com/gonzdeveloper/BlogDePrueba.git
+ 1347  git remote set-url origin "git@github.com:gonzdeveloper/BlogDePrueba.git"
+ 1348  git pull origin master 
+ 1349  git remote set-url origin https://github.com/gonzdeveloper/BlogDePrueba.git
+ 1350  git remote -v
+ 1351  git pull origin master 
+ 1352  gitk
+ 1353  git branch 
+ 1354  git pull origin master 
+ 1355  git checkout cabecera 
+ 1356  git push origin cabecera 
+ 1357  git checkout master 
+ 1358  git branch header
+ 1359  git branch footer
+ 1360  git branch 
+ 1361  git push origin header 
+ 1362  git push origin footer 
+ 1363  gitk
+ 1364  git checkout cabecera 
+ 1365  git checkout master 
+ 1367  git checkout master 
+ 1368  git pull origin master 
+ 1370  git log
+ 1371  git config --list
+ 1373  git commit -am "Agregue los comandos de Git"
+ 1374  git push origin master 
+ 1376  git status 
+ 1377  git branch 
+ 1378  git log
+ 1379  git status 
+ 1380  git log --graph 
+ 1381  git log --stat 
+ 1382  git add .
+ 1383  git status 
+ 1384  git checkout header 
+ 1385  git sta
+ 1386  git status 
+ 1387  git commit -am "Logo del header"
+ 1388  git pull origin header 
+ 1389  git push origin header 
+ 1391  git status 
+ 1392  git commit -am "Color de fondo, logo nuevo, mejor color de header"
+ 1393  git status 
+ 1394  git checkout master 
+ 1395  git checkout header 
+ 1396  git checkout footer 
+ 1397  git branch 
+ 1399  git status 
+ 1400  git commit -am "Footer terminado"
+ 1401  git pull origin footer 
+ 1402  git push origin footer 
+ 1403  git checkout master 
+ 1404  git pull origin footer 
+ 1405  git checkout master 
+ 1406  git merge header 
+ 1407  git status 
+ 1408  git commit -am "Mergeado cambios de titulos"
+ 1409  git status 
+ 1410  git merge header 
+ 1411  git merge footer 
+ 1412  git log --stat 
+ 1413  git checkout master 
+ 1414  git pull origin master 
+ 1415  git push origin master 
+ 1416  git branch 
+ 1474  git clone https://github.com/gonzdeveloper/hyperblog.git
+ 1479  git commit -am "Agregue mi nobre, gracias por todo!"
+ 1480  git branch 
+ 1481  git push origin master 
+ 1528  git status 
+ 1529  git pull origin master 
+ 1531  git status 
+ 1532  git add .gitignore 
+ 1533  git status 
+ 1534  git commit -am "Agregue una imagen en el proyecto"
+ 1535  git status 
+ 1536  git push origin master 
+ 1538  git log --graph 
+ 1540  git push origin master 
+ 1541  git status 
+ 1542  git commit -am "Otro cambio chotito"
+ 1543  git push origin master 
+ 1544  git pull origin master 
+ 1545  git commit -am "Cambios y merge"
+ 1546  git status 
+ 1547  git push origin master 
+ 1548  git status 
+ 1550  git clone https://github.com/gonzdeveloper/gonzadeveloper.git
+ 1555  git status 
+ 1556  git add index.html 
+ 1557  git commit -am "Mi primer diseño"
+ 1558  git pull master
+ 1559  git remote 
+ 1560  git remote  -v
+ 1561  git push origin master
+ 1562  git commit -am "Mi primer diseño 2"
+ 1563  git push origin master
+ 1564  git status 
+ 1565  git commit -am "Mi primer diseño 2"
+ 1566  git push origin master
+ 1569  git commit -am "Cambio con master 1"
+ 1570  git log --stat 
+ 1571  git branch experimento
+ 1572  git checkout experimento 
+ 1573  git commit -am "Exp 1"
+ 1574  git log --stat 
+ 1575  git log --graph 
+ 1576  git commit -am "Exp 2"
+ 1577  git checkout master 
+ 1578  git checkout experimento 
+ 1579  git rebase master
+ 1580  git checkout master 
+ 1581  git commit -am "Master 2"
+ 1582  git checkout experimento 
+ 1583  git log --graph 
+ 1584  git checkout experimento 
+ 1585  git rebase master
+ 1586  git log --graph 
+ 1587  git checkout master 
+ 1588  git rebase experimento 
+ 1589  git log --graph 
+ 1590  git pull origin master 
+ 1591  git push origin master 
+ 1592  git branch 
+ 1593  git branch -D experimento 
+ 1594  git branch 
+ 1595  git log --graph 
+ 1596  git status 
+ 1597  git branch 
+ 1598  git stash 
+ 1599  git stash list 
+ 1600  git checkout footer 
+ 1601  git checkout master 
+ 1602  git stash pop
+ 1603  git status 
+ 1604  git stash list 
+ 1605  git stash pop
+ 1606  git stash 
+ 1607  git stash list 
+ 1608  git stash pop 
+ 1609  git stash list 
+ 1610  git stash 
+ 1611  git stash branch enlish-version
+ 1612  git branch 
+ 1613  git status 
+ 1614  git commit -am "i speak english now"
+ 1615  git sta
+ 1616  git status 
+ 1617  git branch 
+ 1618  git checkout master 
+ 1619  git stash list
+ 1620  git stash list 
+ 1621  git stash drop 
+ 1622  git stash list 
+ 1623  git log --stat 
+ 1624  git log --stat --graph 
+ 1625  git status 
+ 1626  git clean 
+ 1627  git clean --dry-run 
+ 1628  git clean -f
+ 1629  git status 
+ 1630  git clean --dry-run 
+ 1631  git push origin master 
+ 1632  git pull origin master 
+ 1633  git stash 
+ 1634  git branch readme-mejorado
+ 1635  git branch 
+ 1636  git stage 
+ 1637  git stash 
+ 1638  git checkout readme-mejorado 
+ 1639  git branch 
+ 1640  git commit -am "Creditos a hulk"
+ 1641  git status 
+ 1642  git log --graph 
+ 1643  git log --ooneli
+ 1644  git log --oneline 
+ 1645  git branch 
+ 1646  git checkout master 
+ 1647  git stash branch readme-mejorado
+ 1648  git stash branch readme-mejorado2
+ 1649  git stash
+ 1650  git stash branch readme-mejorado2
+ 1651  git branch -D readme-mejorado2
+ 1652  git branch 
+ 1653  git branch -D readme-mejorado
+ 1654  git checkout master
+ 1655  git branch -D readme-mejorado2
+ 1656  git branch 
+ 1657  git stash branch readme-mejorado
+ 1658  git stash 
+ 1659  git stash branch readme-mejorado
+ 1660  git branch 
+ 1661  git checkout master 
+ 1662  git branch -D readme-mejorado
+ 1663  git stash list
+ 1664  git stash pop
+ 1665  git stash list
+ 1666  git stash pop
+ 1667  git stash pop stash@{0]
+ 1668  git stash pop stash@{0}
+ 1669  git stash pop stash@{1}
+ 1670  git stash list
+ 1671  git stash pop
+ 1672  git stash list
+ 1673  git stash pop
+ 1674  git stash list
+ 1675  git stash pop
+ 1676  git pull origin master 
+ 1677  git stash pop
+ 1678  git stash clear 
+ 1679  git stash list 
+ 1680  git status 
+ 1681  git commit -a
+ 1682  git status 
+ 1683  git stash branch readme-mejorado
+ 1684  git stash list
+ 1685  git stash
+ 1686  git stash branch readme-mejorado
+ 1687  git branch 
+ 1688  git commit -a
+ 1689  git log --graph 
+ 1690  git log --oneline 
+ 1691  git commit -a
+ 1692  git log --oneline 
+ 1693  git commit -a
+ 1694  git log --oneline 
+ 1695  git checkout master 
+ 1696  git checkout readme-mejorado 
+ 1697  git log --oneline 
+ 1698  git checkout master 
+ 1699  git cherry-pick 3090443
+ 1700  git status 
+ 1701  git log --oneline 
+ 1702  git pull origin master 
+ 1703  git push origin master 
+ 1704  git branch 
+ 1705  git merge readme-mejorado 
+ 1706  git status 
+ 1707  git commit -a
+ 1708  git status 
+ 1709  git pull origin master 
+ 1710  git push origin master 
+ 1711  git branch 
+ 1713  git status 
+ 1714  git commit -a
+ 1715  git status 
+ 1716  git add css/estilos.css 
+ 1717  git status 
+ 1718  git commit --amend 
+ 1719  git status 
+ 1720  git log --oneline 
+ 1721  git status 
+ 1722  git commit -am "adaskjdhaskjdhkasdjas"
+ 1723  git checkout cabecera 
+ 1724  git merge master 
+ 1727  git log
+ 1728  gitk 
+ 1729  git checkout master 
+ 1730  git status 
+ 1731  git log
+ 1732  git branch -D cabecera 
+ 1733  git log --oneline 
+ 1734  git reflog 
+ 1735  git branch 
+ 1736  git reset HEAD@{4}:
+ 1737  git status 
+ 1738  git reset --hard HEAD@{4}:
+ 1739  git reset HEAD@{4}
+ 1740  git status 
+ 1741  git reflog 
+ 1742  git reset --hard 7d0ce39
+ 1743  git log --oneline 
+ 1744  git branch 
+ 1745  git pull origin master 
+ 1746  git push  origin master 
+ 1747  git grep color
+ 1748  git grep la
+ 1749  git grep -n color
+ 1750  git grep -c la
+ 1751  git grep -c Platzi
+ 1752  git grep -c platzi
+ 1753  git grep -c "<p>"
+ 1754  git log -S "cabecera"
+ 1755  git shortlog 
+ 1756  git shortlog -sn
+ 1757  git shortlog -sn -all
+ 1758  git shortlog -sn --all
+ 1759  git shortlog -sn --all --no-merges 
+ 1760  git stats 
+ 1761  git config --global alias.aportestat "shortlog -sn --all --no-merges"
+ 1762  git aportestat 
+ 1763  git aportestat -
+ 1764  git blame blogpost.html -c
+ 1765  git blame --help
+ 1766  git branch 
+ 1767  git branch -r
+ 1768  git branch -a
+ 1769  git pull origin master 
+ 1770  git --help
+ 1807  git init
+ 1812  git init 
+ 1813  git add README.md
+ 1815  git add README.md
+ 1816  git commit -am "Inicio del repositorio"
+ 1817  sudo remote add origin https://github.com/gonzdeveloper/ProgramacionFuncionalJS.git
+ 1818  git remote add origin https://github.com/gonzdeveloper/ProgramacionFuncionalJS.git
+ 1819  git push origin master
+ 1823  git init
+ 1825  git add README.md 
+ 1826  git commit -m "Inicio del repositorio"
+ 1827  git remote add origin https://github.com/gonzdeveloper/FING.git
+ 1828  git push origin master
+ 1833  git add .
+ 1834  git status 
+ 1835  git push origin master 
+ 1836  git commit -am "Se agregan archivos iniciales"
+ 1837  git push origin master 
+ 1839  git status 
+ 1840  git commit -am "Primeras clases, agregado de variables JQuery"
+ 1841  git status 
+ 1842  git push origin master
+ 1888  git status 
+ 1889  git add js/copiarObjetos.js 
+ 1890  git commit -am "Copia y modificar objetos en JS"
+ 1891  git push origin master 
+ 1892  git status 
+ 1893  git add 
+ 1894  git add js/inmutabilidadFumciones.js 
+ 1895  git add 
+ 1896  git status 
+ 1897  git commit -am "Inmutabiliad de Funciones"
+ 1898  git status 
+ 1899  git commit -am "Validando los inputs"
+ 1900  git push origin master 
+ 1901  git status 
+ 1902  git add js/sharedState.js
+ 1903  git commit -am "Estado compartido SharedState, como trabajar sin mutar variables"
+ 1904  git push origin master 
+ 1905  git status 
+ 1906  git commit -am "Agregando elementos a la lista, ArrowFunctions o funciones Lambda"
+ 1907  git push origin master 
+ 1908  git status 
+ 1909  git commit -am "Function Composition, combinar dos funciones o más"
+ 1910  git status 
+ 1911  git add js/main.js 
+ 1912  git commit --amend  "Function Composition, combinar dos funciones o más"
+ 1913  git commit 
+ 1914  git status 
+ 1915  git push origin master 
+ 1916  git status 
+ 1917  git commit -am "Completando funciones para generar etiquetas HTML"
+ 1918  git commit -am "Ejemplo de Closures"
+ 1919  git add js/closures.js 
+ 1920  git commit -am "Ejemplo de Closures"
+ 1921  git status 
+ 1922  git add js/currying.js 
+ 1923  git commit -am "Ejemplo de Funcion currificada (Currying)"
+ 1924  git push origin master 
+ 1955  git pull origin master 
+ 1956  git status 
+ 1958  git commit -am "Construyendo filas y celdas"
+ 1959  git status 
+ 1960  git commit -am "Introducción a las Higher Order Functions"
+ 1961  git add js/highOrderFunctions.js 
+ 1962  git commit -am "Introducción a las Higher Order Functions"
+ 1963  git push origin master 
+ 1964  git commit -am "Actualizando el total de Calorías"
+ 1966  git status 
+ 1967  git commit -am "Se muestran los elementos en el body"
+ 1968  git commit -am "Ahora se pueden eliminar elementos"
+ 1969  git push origin master 
+ 1970  git commit -am "Programacion declarativa, cambio de funciones"
+ 1971  git push origin master 
+ 2024  history | git
+ 2025  history grep git
+ 2026  history | grep git
+ 2027  history | grep git >> comandosGIT.txt 
+ 2029  history | grep git >> comandosGIT.txt 
